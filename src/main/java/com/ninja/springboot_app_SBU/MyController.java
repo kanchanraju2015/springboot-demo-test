@@ -3,8 +3,8 @@ package com.ninja.springboot_app_SBU;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
-@RequestMapping("/facebook")
+@RestController 
+//@RequestMapping("/facebook")
 public class MyController
 {
 	@RequestMapping("/test")
@@ -23,6 +23,16 @@ public class MyController
 	{
 		return "this is tes3t";
 	}
+	@RequestMapping("/ranchi")
+	public String ranchi()
+	{
+		return "this is ranchi";
+	}
+	
 
 
 }
+
+
+
+
